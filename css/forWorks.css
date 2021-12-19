@@ -90,9 +90,9 @@ footer{
     margin: 5px;
 }
 .butn{
-    width: 25px;
+    width: 30px;
     height: 3px;
-    margin: 3px 0px;
+    margin: 6px 0px;
     background-color: wheat;
 }
 .droplist{
@@ -112,11 +112,6 @@ footer{
     header img{
         margin-left: 50%;
     }
-}
-@media screen and  (max-width:500px){
-    header img{
-        margin-left: 45%;
-    }
     .box{
         display: none;
     }
@@ -129,4 +124,10 @@ footer{
         margin-left: 70%;
     }
     #dropdown:hover #dropL {display: block;}
+}
+@media screen and  (max-width:500px){
+    header img{
+        margin-left: 45%;
+    }
+    
 }
