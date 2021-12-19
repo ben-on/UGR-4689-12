@@ -113,6 +113,25 @@ footer{
     margin-left: 7%;
     visibility: hidden;
 }
+#dropdown{
+    display: none;
+}
+#dropdown button{
+    background-color: rgb(70, 25, 11);
+    margin: 5px;
+}
+.butn{
+    width: 25px;
+    height: 3px;
+    margin: 3px 0px;
+    background-color: wheat;
+}
+.droplist{
+    margin: 3px;
+}
+.droplist:hover{
+    border-bottom:2px solid rgb(221, 197, 169) ;
+}
 @media screen and (max-width:700px){
     #forms{
         display: flex;
@@ -123,5 +142,16 @@ footer{
     #meIcon{
         visibility: visible;
     }
-    
+    .box{
+        display: none;
+    }
+    #dropL{
+        display: none;
+    }
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+    }
+    #dropdown:hover #dropL {display: block;}
 }

@@ -81,6 +81,25 @@ footer{
 #paraF{
     background-color: rgba(2, 2, 2, 0.479);
 }
+#dropdown{
+    display: none;
+}
+#dropdown button{
+    background-color: rgb(70, 25, 11);
+    margin: 5px;
+}
+.butn{
+    width: 25px;
+    height: 3px;
+    margin: 3px 0px;
+    background-color: wheat;
+}
+.droplist{
+    margin: 3px;
+}
+.droplist:hover{
+    border-bottom:2px solid rgb(221, 197, 169) ;
+}
 @media screen and (max-width:800px){
     #interest{
         display: flex;
@@ -99,4 +118,16 @@ footer{
         margin: 3%;
         padding-top: 5%;
     }
+    .box{
+        display: none;
+    }
+    #dropL{
+        display: none;
+    }
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+    }
+    #dropdown:hover #dropL {display: block;}
 }

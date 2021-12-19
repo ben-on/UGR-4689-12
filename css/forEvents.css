@@ -80,6 +80,25 @@ footer{
     margin-top: 15%;
     
 }
+#dropdown{
+    display: none;
+}
+#dropdown button{
+    background-color: rgb(70, 25, 11);
+    margin: 5px;
+}
+.butn{
+    width: 25px;
+    height: 3px;
+    margin: 3px 0px;
+    background-color: wheat;
+}
+.droplist{
+    margin: 3px;
+}
+.droplist:hover{
+    border-bottom:2px solid rgb(221, 197, 169) ;
+}
 @media screen and (max-width:800px){
     #event{
         display: flex;
@@ -90,9 +109,22 @@ footer{
     header img{
         margin-left: 50%;
     }
+    .box{
+        display: none;
+    }
+    #dropL{
+        display: none;
+    }
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+    }
+    #dropdown:hover #dropL {display: block;}
 }
 @media screen and  (max-width:500px){
     header img{
-        margin-left: 25%;
+        margin-left: 40%;
     }
+    
 }
