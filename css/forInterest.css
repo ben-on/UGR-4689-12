@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    background-color: wheat;
+    color: wheat;
+}
+#container {
+    color: rgb(10, 6, 6);
+    background-color: rgb(54, 22, 12);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    overflow: hidden;
+}
+.box{
+    position: relative;
+   /* margin-right: 15px; */
+   text-align: center;
+   padding: 0.5%;
+    color: rgb(189, 147, 99);
+   margin: 1%;
+}
+
+.box:hover{
+    border-bottom:2px rgb(189, 147, 99) solid;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+#bio{
+    background-image: url(../images/wow3.jpg);
+    overflow: hidden;
+    
+}
+#bio h2{
+    background-color: rgba(0, 0, 0, 0.568) ;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+#interest{
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15% ;
+    gap: 6%;
+    justify-content: center;
+    margin:1% 0px 2% 0%;
+}
+.interes {
+    margin: 0% 0px;
+    overflow: hidden;
+}
+.seco, .fira {
+    margin:20% 0px ;
+    background-color: rgba(2, 2, 2, 0.479);
+    
+}
+.firstt{
+    display: grid;
+    grid-template-rows: 20%;
+    justify-content: center;
+    grid-row: inherit;
+}
+p{
+    padding: 0.1% 10%;
+}
+footer{
+    padding: 2%;
+    text-align: center;
+    margin: 0px;
+    background-color: rgba(54, 22, 12, 0.877) ;
+    margin-top: 15%;
+    
+}
+#disc{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+#paraF{
+    background-color: rgba(2, 2, 2, 0.479);
+}
+@media (max-width:800px){
+    #interest{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .firstt{
+        display: flex;
+        flex-direction: column;
+    }
+    #disc{
+        display: flex;
+        flex-direction: column;
+    }
+    .seco{
+        margin: 3%;
+        padding-top: 5%;
+    }
+}

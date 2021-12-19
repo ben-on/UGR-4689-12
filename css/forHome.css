@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    /* overflow: hidden; */
+    background-color: #f1f1f1;
+    background-image: url('../images/wow6.jpg');
+    color:wheat;
+    
+    
+}
+#hd{
+    background-color: wheat;
+    padding: 0.1%;
+    text-align: left;
+    margin: 0px;
+    color: black;
+    
+}
+header{
+    display: flex;
+}
+td {
+    border-bottom: 5px solid rgb(255, 252, 252);
+    border-top: 5px solid rgb(252, 249, 249);
+  }
+header img{
+    margin-left: 65%;
+    padding:0.5% 0% ;
+    border-radius: 100px;
+    max-width: 100%;
+}
+header h1{
+    padding-left: 7%;
+}
+#container {
+    color: rgb(10, 6, 6);
+    background-color: rgba(54, 22, 12, 0.877);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#me img{
+    border-radius: 20px;
+    box-shadow: inset;
+}
+div{
+    overflow: hidden;
+}
+.box{
+    position: relative;
+   /* margin-right: 15px; */
+   
+   text-align: center;
+   padding: 0.5%;
+    color: rgb(189, 147, 99);
+   margin: 1%;
+}
+.box{
+    border-bottom: 2px rgba(54, 22, 12, 0.877) solid;
+}
+
+.box:hover{
+    border-color: rgb(221, 197, 169) ;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+#bio{
+    background-image: url(../images/wow3.jpg);
+    overflow: hidden;
+    text-align: center;
+    color: wheat;
+}
+#bio h2{
+    background-color: #d4d4d442;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+#space {
+    display: grid;
+    grid-template-rows: 10%;
+}
+#txme{
+    display: grid;
+    grid-template-columns: 8% 50% 34% 8% ;
+}
+#ft{
+    padding-top: 50px;
+}
+#tx{
+    padding: 5%;
+    background-color: #d4d4d442;
+    border-radius: 20px;
+    color:wheat;
+}
+#tx h1{
+    margin-left: 5%;
+}
+#tx p{
+    
+    padding: 5%;
+}
+#me{
+    padding: 10%;
+    padding-right: 0px;
+
+}
+#me img{
+    max-width: 100%;
+}
+footer{
+    padding: 3%;
+    text-align: center;
+    margin: 0px;
+    background-color:rgba(54, 22, 12, 0.877) ;
+    margin-top: 20%;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid;
+}
+table tr td, th{
+    padding:10px 15px;
+    margin:0px;
+    border:0px;
+    text-align: center;
+    vertical-align: center;
+    
+    }
+
+
+table th{
+    background-color: rgb(70, 25, 11);
+}
+
+@media (max-width:700px){
+
+    #txme{
+        display: flex;
+        flex-direction: column;
+    }
+    #me img{
+        align-items: center;
+        margin: 5%;
+    }
+    header img{
+        margin-left: 50%;
+    }
+
+
+}
+
+
