@@ -81,7 +81,7 @@ footer{
     margin: 0px;
     background-color: rgb(187, 169, 137);
 }
-@media (max-width:800px){
+@media screen and  (max-width:800px){
     #first, #second{
         display: flex;
         flex-direction: column;

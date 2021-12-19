@@ -113,7 +113,7 @@ footer{
     margin-left: 7%;
     visibility: hidden;
 }
-@media (max-width:700px){
+@media screen and (max-width:700px){
     #forms{
         display: flex;
     }

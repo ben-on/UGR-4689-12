@@ -81,7 +81,7 @@ footer{
 #paraF{
     background-color: rgba(2, 2, 2, 0.479);
 }
-@media (max-width:800px){
+@media screen and (max-width:800px){
     #interest{
         display: flex;
         flex-direction: column;

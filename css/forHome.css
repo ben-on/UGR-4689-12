@@ -138,7 +138,7 @@ table th{
     background-color: rgb(70, 25, 11);
 }
 
-@media (max-width:700px){
+@media screen and  (max-width:700px){
 
     #txme{
         display: flex;
