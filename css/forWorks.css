@@ -10,7 +10,7 @@ body{
     padding: 0.1%;
     text-align: left;
     margin: 0px;
-    color: rgb(0, 0, 0);
+    color: rgb(70, 25, 11);
     
 }
 header{
@@ -91,5 +91,10 @@ footer{
     }
     header img{
         margin-left: 50%;
+    }
+}
+@media screen and  (max-width:500px){
+    header img{
+        margin-left: 45%;
     }
 }
