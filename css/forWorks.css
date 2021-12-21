@@ -101,6 +101,9 @@ footer{
 .droplist:hover{
     border-bottom:2px solid rgb(221, 197, 169) ;
 }
+em{
+    font-size: larger;
+}
 @media screen and  (max-width:800px){
     #first, #second{
         display: flex;
