@@ -73,13 +73,16 @@ a{
     text-align: center;
     color: wheat;
 }
-#bio h2{
+#bio p{
     background-color: #d4d4d442;
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
     padding: 10px;
+}
+#bio em{
+    font-size: large;
 }
 #space {
     display: grid;
@@ -139,7 +142,10 @@ table th{
 #dropdown{
     display: none;
 }
-#dropdown button{
+caption{
+    margin-bottom: 5px;
+}
+#dropdown .button{
     background-color: rgb(70, 25, 11);
     margin: 5px;
 }

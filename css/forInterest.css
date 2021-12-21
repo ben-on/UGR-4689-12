@@ -84,7 +84,7 @@ footer{
 #dropdown{
     display: none;
 }
-#dropdown button{
+#dropdown .button{
     background-color: rgb(70, 25, 11);
     margin: 5px;
 }
