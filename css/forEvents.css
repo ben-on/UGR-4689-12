@@ -6,16 +6,13 @@ body{
     
     
 }
-#hd{
+header{
+    display: flex;
     background-color: wheat;
     padding: 0.1%;
     text-align: left;
     margin: 0px;
     color: rgb(70, 25, 11);
-    
-}
-header{
-    display: flex;
 }
 header img{
     margin-left: 65%;
@@ -36,7 +33,7 @@ nav{
 div{
     overflow: hidden;
 }
-.box{
+.nav__box{
     position: relative;
    /* margin-right: 15px; */
    
@@ -46,7 +43,7 @@ div{
    margin: 1%;
 }
 
-.box:hover{
+.nav__box:hover{
     border-bottom:2px rgb(189, 147, 99) solid;
 }
 a{
@@ -80,23 +77,23 @@ footer{
     margin-top: 15%;
     
 }
-#dropdown{
+.nav__dropdown{
     display: none;
 }
-#dropdown .button{
+.nav__dropdown__button{
     background-color: rgb(54, 22, 12);
     margin: 5px;
 }
-.butn{
+.nav__dropdown__button__butn{
     width: 30px;
     height: 3px;
     margin: 6px 0px;
     background-color: wheat;
 }
-.droplist{
+.nav__dropdown__dropL__droplist{
     margin: 3px;
 }
-.droplist:hover{
+.nav__dropdown__dropL__droplist:hover{
     border-bottom:2px solid rgb(221, 197, 169) ;
 }
 @media screen and (max-width:800px){
@@ -112,18 +109,18 @@ footer{
     nav{
         background-color:rgb(54, 22, 12) ;
     }
-    .box{
+    .nav__box{
         display: none;
     }
-    #dropL{
+    .nav__dropdown__dropL{
         display: none;
     }
-    #dropdown{
+    .nav__dropdown{
         display: flex;
         flex-direction: column;
         margin-left: 83%;
     }
-    #dropdown:hover #dropL {display: block;}
+    .nav__dropdown:hover .nav__dropdown__dropL {display: block;}
 }
 @media screen and  (max-width:500px){
     header img{

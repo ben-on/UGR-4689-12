@@ -7,16 +7,13 @@ body{
     
     
 }
-#hd{
+header{
+    display: flex;
     background-color: wheat;
     padding: 0.1%;
     text-align: left;
     margin: 0px;
     color: rgb(70, 25, 11);
-    
-}
-header{
-    display: flex;
 }
 
 td {
@@ -46,7 +43,7 @@ nav {
 div{
     overflow: hidden;
 }
-.box{
+.nav__box{
     position: relative;
    /* margin-right: 15px; */
    
@@ -55,11 +52,11 @@ div{
     color: rgb(189, 147, 99);
    margin: 1%;
 }
-.box{
+.nav__box{
     border-bottom: 2px rgba(54, 22, 12, 0.877) solid;
 }
 
-.box:hover{
+.nav__box:hover{
     border-color: rgb(221, 197, 169) ;
 }
 a{
@@ -88,23 +85,23 @@ main {
     display: grid;
     grid-template-rows: 10%;
 }
-#txme{
+.main__txme{
     display: grid;
     grid-template-columns: 8% 50% 34% 8% ;
 }
 #ft{
     padding-top: 50px;
 }
-#tx{
+.main__txme__tx{
     padding: 5%;
     background-color: #d4d4d442;
     border-radius: 20px;
     color:wheat;
 }
-#tx h1{
+.main__txme__tx h1{
     margin-left: 5%;
 }
-#tx p{
+.main__txme__tx p{
     
     padding: 5%;
 }
@@ -116,7 +113,6 @@ main {
     max-width: 100%;
 }
 footer{
-    bottom: 0;
     padding: 3%;
     text-align: center;
     margin: 0px;
@@ -128,8 +124,6 @@ footer{
     bottom:0;
     width:100%;
     height:60px;   /* Height of the footer */
-    background:#6cf;
- } */
 table{
     border-collapse: collapse;
     width: 70%;
@@ -146,31 +140,31 @@ table tr td, th{
 table th{
     background-color: rgb(70, 25, 11);
 }
-#dropdown{
+.nav__dropdown{
     display: none;
 }
 caption{
     margin-bottom: 5px;
 }
-#dropdown .button{
+.nav__dropdown__button{
     background-color: rgb(54, 22, 12);
     margin: 5px;
 }
-.butn{
+.nav__dropdown__button__butn{
     width: 30px;
     height: 3px;
     margin: 6px 0px;
     background-color: wheat;
 }
-.droplist{
+.nav__dropdown__dropL__droplist{
     margin: 3px;
 }
-.droplist:hover{
+.nav__dropdown__dropL__droplist:hover{
     border-bottom:2px solid rgb(221, 197, 169) ;
 }
 @media screen and  (max-width:700px){
 
-    #txme{
+    .main__txme{
         display: flex;
         flex-direction: column;
     }
@@ -181,18 +175,18 @@ caption{
     header img{
         margin-left: 40%;
     }
-    .box{
+    .nav__box{
         display: none;
     }
-    #dropL{
+    .nav__dropdown__dropL{
         display: none;
     }
-    #dropdown{
+    .nav__dropdown{
         display: flex;
         flex-direction: column;
         margin-left: 83%;
     }
-    #dropdown:hover #dropL {display: block;}
+    .nav__dropdown:hover .nav__dropdown__dropL {display: block;}
 }
 @media screen and  (max-width:500px){
     header img{
