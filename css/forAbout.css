@@ -3,7 +3,7 @@ body{
     background-color: wheat;
     color: wheat;
 }
-#container nav{
+nav{
     color: rgb(255, 255, 255);
     background-color: rgb(54, 22, 12);
     display: flex;
@@ -31,7 +31,7 @@ a{
     color: wheat;
     
 }
-#contain{
+main{
     display: grid;
     grid-template-columns: 10% 50% 40%;
     margin-top: 5%;
@@ -77,13 +77,13 @@ footer{
     border-bottom:2px solid rgb(221, 197, 169) ;
 }
 @media screen and (max-width:800px){
-    #contain{
+    main{
         display: flex;
         flex-direction: column;
         margin-top: 5%;
         margin: 7% ;
     }
-    #container{
+    nav{
         background-color:rgb(54, 22, 12) ;
     }
     .box{

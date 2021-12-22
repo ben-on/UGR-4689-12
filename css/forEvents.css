@@ -26,7 +26,7 @@ header h1{
     padding-left: 7%;
 }
 
-#container nav{
+nav{
     color: rgb(10, 6, 6);
     background-color: rgba(54, 22, 12, 0.877);
     display: flex;
@@ -55,7 +55,7 @@ a{
     
 }
 
-#event{
+main{
     display: grid;
     grid-template-columns: 15% 35% 35% 15% ;
     gap: 6%;
@@ -100,7 +100,7 @@ footer{
     border-bottom:2px solid rgb(221, 197, 169) ;
 }
 @media screen and (max-width:800px){
-    #event{
+    main{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -109,7 +109,7 @@ footer{
     header img{
         margin-left: 50%;
     }
-    #container{
+    nav{
         background-color:rgb(54, 22, 12) ;
     }
     .box{

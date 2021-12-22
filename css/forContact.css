@@ -3,7 +3,7 @@ body{
     background-color: wheat;
     color: wheat;
 }
-#container nav{
+nav{
     color: rgb(10, 6, 6);
     background-color: rgb(54, 22, 12);
     display: flex;
@@ -142,7 +142,7 @@ footer{
     #meIcon{
         visibility: visible;
     }
-    #container{
+    nav{
         background-color:rgb(54, 22, 12) ;
     }
     .box{

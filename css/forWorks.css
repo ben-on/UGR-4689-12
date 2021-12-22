@@ -24,7 +24,7 @@ header img{
 header h1{
     padding-left: 7%;
 }
-#container nav{
+nav{
     color: rgb(10, 6, 6);
     background-color: rgb(54, 22, 12);
     display: flex;
@@ -51,17 +51,16 @@ a{
     color: wheat;
     
 }
-#workBody{
+main{
     background-image: url(../images/wow7.jpg);
     background-size: 100% 100%;
     color:wheat;
+    padding-bottom: 15%;
 }
 #first, #second{
     display: flex;
     justify-content: center;
     padding: 5% 10% 0% 10%;
-   
-    
 }
 #second {
     padding-top: 1%;
@@ -118,7 +117,7 @@ em{
     .box{
         display: none;
     }
-    #container{
+    nav{
         background-color:rgb(54, 22, 12) ;
     }
     #dropL{

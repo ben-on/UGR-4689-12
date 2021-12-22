@@ -32,7 +32,7 @@ header img{
 header h1{
     padding-left: 7%;
 }
-#container {
+nav {
     color: rgb(10, 6, 6);
     background-color: rgba(54, 22, 12, 0.877);
     display: flex;
@@ -84,7 +84,7 @@ a{
 #bio em{
     font-size: large;
 }
-#space {
+main {
     display: grid;
     grid-template-rows: 10%;
 }
@@ -111,7 +111,6 @@ a{
 #me{
     padding: 10%;
     padding-right: 0px;
-
 }
 #me img{
     max-width: 100%;
@@ -146,7 +145,7 @@ caption{
     margin-bottom: 5px;
 }
 #dropdown .button{
-    background-color: rgb(70, 25, 11);
+    background-color: rgb(54, 22, 12);
     margin: 5px;
 }
 .butn{
