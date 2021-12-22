@@ -183,7 +183,7 @@ caption{
     #dropdown{
         display: flex;
         flex-direction: column;
-        margin-left: 70%;
+        margin-left: 83%;
     }
     #dropdown:hover #dropL {display: block;}
 }

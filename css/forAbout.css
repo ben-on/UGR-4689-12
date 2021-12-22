@@ -3,7 +3,7 @@ body{
     background-color: wheat;
     color: wheat;
 }
-#container {
+#container nav{
     color: rgb(255, 255, 255);
     background-color: rgb(54, 22, 12);
     display: flex;
@@ -61,7 +61,7 @@ footer{
     display: none;
 }
 #dropdown .button{
-    background-color: rgb(70, 25, 11);
+    background-color: rgb(54, 22, 12);
     margin: 5px;
 }
 .butn{
@@ -83,6 +83,9 @@ footer{
         margin-top: 5%;
         margin: 7% ;
     }
+    #container{
+        background-color:rgb(54, 22, 12) ;
+    }
     .box{
         display: none;
     }
@@ -92,7 +95,7 @@ footer{
     #dropdown{
         display: flex;
         flex-direction: column;
-        margin-left: 70%;
+        margin-left: 83%;
     }
     #dropdown:hover #dropL {display: block;}
 }
