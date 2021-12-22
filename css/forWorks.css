@@ -5,16 +5,13 @@ body{
    
     
 }
-#hd{
+header{
+    display: flex;
     background-color: rgb(187, 169, 137);
     padding: 0.1%;
     text-align: left;
     margin: 0px;
     color: rgb(70, 25, 11);
-    
-}
-header{
-    display: flex;
 }
 header img{
     margin-left: 65%;
